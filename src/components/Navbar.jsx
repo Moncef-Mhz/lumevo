@@ -5,10 +5,10 @@ import { RiShoppingBagLine } from "react-icons/ri";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
-
+  console.log(toggle);
   return (
-    <div className="flex w-full items-center justify-between h-[80px] bg-light-brown px-10 lg:px-16 ">
-      <h1 className="text-2xl font-bold font-sans">Lumevo</h1>
+    <div className="flex w-full items-center justify-between h-[80px]  px-36 bg-light-brown">
+      <h1 className="text-2xl font-bold font-sans cursor-pointer">Lumevo</h1>
       <ul className=" hidden md:flex gap-[64px]">
         {navlinks.map((links) => (
           <li key={links}>
