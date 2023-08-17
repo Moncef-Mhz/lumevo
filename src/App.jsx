@@ -1,5 +1,5 @@
 import { Navbar } from "./components";
-import { CollectionPage, Hero, Testimoniel } from "./page";
+import { BestSeller, CollectionPage, Hero, Testimoniel } from "./page";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Hero />
       <CollectionPage />
       <Testimoniel />
+      <BestSeller />
     </div>
   );
 }
