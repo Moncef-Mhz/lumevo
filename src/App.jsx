@@ -1,5 +1,12 @@
 import { Navbar } from "./components";
-import { BestSeller, CollectionPage, Hero, Testimoniel } from "./page";
+import {
+  BestSeller,
+  CollectionPage,
+  Deal,
+  Hero,
+  Product,
+  Testimoniel,
+} from "./page";
 
 function App() {
   return (
@@ -9,6 +16,8 @@ function App() {
       <CollectionPage />
       <Testimoniel />
       <BestSeller />
+      <Product />
+      <Deal />
     </div>
   );
 }

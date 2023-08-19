@@ -19,13 +19,19 @@ function BestSeller() {
           {CardData.map((item) => (
             <div
               key={item.id}
-              className="flex flex-col w-[300px] h-[400px] bg-slate-300"
+              className="rounded-b-md flex flex-col w-[300px] h-[400px] bg-white"
             >
               <div className="w-full h-[300px]">
                 <img src={item.url} className="object-cover h-[300px] w-full" />
               </div>
-              <div className="">
-                <h1 className="font-serif">{item.title}</h1>
+              <div className="p-5 flex flex-col gap-1 rounded-b-md">
+                <h1 className="font-serif font-bold text-lg">{item.title}</h1>
+                <div className="flex gap-10">
+                  <h1 className="font-bold font-sans opacity-60 line-through">
+                    ${item.price}
+                  </h1>
+                  <h1 className="font-bold font-sans ">${item.price - 20}</h1>
+                </div>
               </div>
             </div>
           ))}

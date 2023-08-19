@@ -2,4 +2,6 @@ import Hero from "./Hero";
 import CollectionPage from "./CollectionPage";
 import Testimoniel from "./Testimoniel";
 import BestSeller from "./BestSeller";
-export { Hero, CollectionPage, Testimoniel, BestSeller };
+import Product from "./Product";
+import Deal from "./Deal";
+export { Hero, Deal, CollectionPage, Product, Testimoniel, BestSeller };
