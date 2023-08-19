@@ -1,6 +1,7 @@
+import { CardData } from "../utils";
 function BestSeller() {
   return (
-    <div className="flex flex-col items-center justify-between pl-32 py-32 bg-dark-brown">
+    <div className="flex flex-col items-center justify-between px-32 py-32 bg-dark-brown">
       <div className="flex flex-row items-center justify-between w-full  gap-20 ">
         <div className="w-[30%] flex flex-col gap-10 items-start">
           <h1 className="text-5xl font-bold font-serif text-white leading-16 tracking-wide">
@@ -14,7 +15,21 @@ function BestSeller() {
             SEE MORE
           </button>
         </div>
-        <div className="">Card</div>
+        <div className="flex items-start justify-start gap-10">
+          {CardData.map((item) => (
+            <div
+              key={item.id}
+              className="flex flex-col w-[300px] h-[400px] bg-slate-300"
+            >
+              <div className="w-full h-[300px]">
+                <img src={item.url} className="object-cover h-[300px] w-full" />
+              </div>
+              <div className="">
+                <h1 className="font-serif">{item.title}</h1>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
       <div className="flex flex-row gap-5 mt-10">
         <div className="bg-white w-3 h-3 rounded-full cursor-pointer"></div>
