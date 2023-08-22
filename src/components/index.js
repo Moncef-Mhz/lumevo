@@ -1,4 +1,4 @@
 import Navbar from "./Navbar";
 // import { CollectionCard } from "./CollectionCard";
-
-export { Navbar };
+import Footer from "./Footer";
+export { Navbar, Footer };

@@ -1,9 +1,10 @@
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 import {
   BestSeller,
   CollectionPage,
-  Deal,
+  // Deal,
   Hero,
+  People,
   Product,
   Testimoniel,
 } from "./page";
@@ -17,7 +18,9 @@ function App() {
       <Testimoniel />
       <BestSeller />
       <Product />
-      <Deal />
+      {/* <Deal /> */}
+      <People />
+      <Footer />
     </div>
   );
 }

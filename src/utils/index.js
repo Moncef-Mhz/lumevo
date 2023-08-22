@@ -90,10 +90,48 @@ const filter = [
   { id: 3, title: "trending now" },
   { id: 4, title: "new arrival" },
 ];
+const testimoniels = [
+  {
+    id: 1,
+    title:
+      "Comfortable and met all my expectations! I ordered a medium and it fit perfectly",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus, auctor pretium ac ultrices. Dui lacus dignissim tincidunt urna, at enim tempo. Pellentesque amet Lorem ipsum dolor sit amet, ",
+    author: "Anisa Zahra",
+    role: "Founder milenial",
+  },
+  {
+    id: 2,
+    title:
+      "Comfortable and met all my expectations! I ordered a medium and it fit perfectly",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus, auctor pretium ac ultrices. Dui lacus dignissim tincidunt urna, at enim tempo. Pellentesque amet Lorem ipsum dolor sit amet, ",
+    author: "Anisa Zahra",
+    role: "Founder milenial",
+  },
+  {
+    id: 3,
+    title:
+      "Comfortable and met all my expectations! I ordered a medium and it fit perfectly",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus, auctor pretium ac ultrices. Dui lacus dignissim tincidunt urna, at enim tempo. Pellentesque amet Lorem ipsum dolor sit amet, ",
+    author: "Anisa Zahra",
+    role: "Founder milenial",
+  },
+  {
+    id: 4,
+    title:
+      "Comfortable and met all my expectations! I ordered a medium and it fit perfectly",
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacus, auctor pretium ac ultrices. Dui lacus dignissim tincidunt urna, at enim tempo. Pellentesque amet Lorem ipsum dolor sit amet, ",
+    author: "Anisa Zahra",
+    role: "Founder milenial",
+  },
+];
+
+const footerMap = ["men", "women", "kids", "trends", "contact us", "faq"];
 
 export {
   cart,
   search,
+  footerMap,
+  testimoniels,
   navlinks,
   filter,
   ProductData,
